@@ -13,7 +13,12 @@ The experiments in the paper use four publicly available ultrasound datasets. Pl
 | BUSI | Breast lesion segmentation | [Al-Dhabyani et al., 2020](https://doi.org/10.1016/j.dib.2019.104863) |
 | BUS-BRA | Breast lesion segmentation | [Gomez-Flores et al., 2024](https://doi.org/10.1002/mp.16812) |
 
-For the BUSI experiments in this work, the dataset was cleaned following the reported audit of duplicated and discrepant cases before splitting. The cleaning rules and split files will be provided with the code.
+For the BUSI experiments in this work, the dataset was cleaned following the reported audit of duplicated and discrepant cases before splitting. The reproducible train/test and five-fold split files are provided in [`datasets/`](datasets/).
+
+## Repository structure
+
+- [`models/WLENet.py`](models/WLENet.py): WLENet model implementation.
+- [`datasets/`](datasets/): train/validation split definitions for five-fold cross-validation. Dataset images and masks are not redistributed.
 
 ## Notes
 
