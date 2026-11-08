@@ -4,7 +4,7 @@ This repository accompanies the paper **"Wavelet-Based Low-Frequency Enhancement
 
 ## Datasets
 
-The experiments in the paper use four publicly available ultrasound datasets. Please obtain each dataset from its original source, follow its applicable license and terms of use, and cite the corresponding dataset paper.
+The experiments use four publicly available ultrasound datasets:
 
 | Dataset | Task | Dataset paper |
 | --- | --- | --- |
@@ -13,14 +13,9 @@ The experiments in the paper use four publicly available ultrasound datasets. Pl
 | BUSI | Breast lesion segmentation | [Al-Dhabyani et al., 2020](https://doi.org/10.1016/j.dib.2019.104863) |
 | BUS-BRA | Breast lesion segmentation | [Gomez-Flores et al., 2024](https://doi.org/10.1002/mp.16812) |
 
-For the BUSI experiments in this work, the dataset was cleaned following the reported audit of duplicated and discrepant cases before splitting. The reproducible train/test and five-fold split files are provided in [`datasets/`](datasets/).
+For BUSI, duplicated and discrepant cases were removed before splitting. The train/test and five-fold split files are provided in [`datasets/`](datasets/).
 
 ## Repository structure
 
 - [`models/WLENet.py`](models/WLENet.py): WLENet model implementation.
-- [`datasets/`](datasets/): train/validation split definitions for five-fold cross-validation. Dataset images and masks are not redistributed.
-
-## Notes
-
-- No dataset images or annotations are redistributed in this repository.
-- Please cite the original dataset papers when using these datasets.
+- [`datasets/`](datasets/): data loader and split definitions for five-fold cross-validation.
