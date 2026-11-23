@@ -5,6 +5,7 @@ This directory contains the data loader and split definitions used in the experi
 ## Contents
 
 - `DDTI/`, `TN3K/`, `BUSI/`, and `BUSBRA/`: five-fold split files.
+- `provenance/`: current-to-original filename and label mappings for TN3K and BUSBRA.
 
 Each split uses a fixed test set and five folds on the remaining training data (seed 42).
 
