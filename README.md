@@ -13,7 +13,7 @@ The experiments use four publicly available ultrasound datasets:
 | BUSI | Breast lesion segmentation | [Al-Dhabyani et al., 2020](https://doi.org/10.1016/j.dib.2019.104863) |
 | BUS-BRA | Breast lesion segmentation | [Gomez-Flores et al., 2024](https://doi.org/10.1002/mp.16812) |
 
-For BUSI, duplicated and discrepant cases were removed before splitting. The train/test and five-fold split files are provided in [`datasets/`](datasets/).
+The train/test and five-fold split files are provided in [`datasets/`](datasets/).
 
 ## Repository structure
 
