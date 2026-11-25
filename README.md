@@ -17,5 +17,6 @@ The train/test and five-fold split files are provided in [`datasets/`](datasets/
 
 ## Repository structure
 
-- [`models/WLENet.py`](models/WLENet.py): WLENet model implementation.
+- [`models/WLENet.py`](models/WLENet.py): revised WLENet with a reconstructed db2 reference and discrepancy- and gradient-conditioned gating.
+- [`models/legacy/WLENet.py`](models/legacy/WLENet.py): earlier WLENet implementation with direct Haar LL guidance.
 - [`datasets/`](datasets/): data loader and split definitions for five-fold cross-validation.
