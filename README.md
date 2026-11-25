@@ -15,6 +15,15 @@ The experiments use four publicly available ultrasound datasets:
 
 The train/test and five-fold split files are provided in [`datasets/`](datasets/).
 
+## Trained checkpoints
+
+Download the five fold-specific WLENet checkpoints for each dataset from GitHub Releases. Each release lists the SHA-256 checksum for every checkpoint.
+
+- [DDTI](https://github.com/jcswhldbb/WLENet/releases/tag/ddti-checkpoints-v1)
+- [TN3K](https://github.com/jcswhldbb/WLENet/releases/tag/tn3k-checkpoints-v1)
+- [BUSI](https://github.com/jcswhldbb/WLENet/releases/tag/busi-checkpoints-v1)
+- [BUS-BRA](https://github.com/jcswhldbb/WLENet/releases/tag/busbra-checkpoints-v1)
+
 ## Repository structure
 
 - [`models/WLENet.py`](models/WLENet.py): revised WLENet with a reconstructed db2 reference and discrepancy- and gradient-conditioned gating.
