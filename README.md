@@ -17,7 +17,7 @@ The train/test and five-fold split files are provided in [`datasets/`](datasets/
 
 ## Trained checkpoints
 
-Download the five fold-specific WLENet checkpoints for each dataset from GitHub Releases. Each release lists the SHA-256 checksum for every checkpoint.
+Download the five fold-specific WLENet checkpoints for each dataset from GitHub Releases.
 
 - [DDTI](https://github.com/jcswhldbb/WLENet/releases/tag/ddti-checkpoints-v1)
 - [TN3K](https://github.com/jcswhldbb/WLENet/releases/tag/tn3k-checkpoints-v1)
